@@ -54,15 +54,15 @@ project and you should be ready to go!
 
 the Virtual Host of this project must be set like this
 
-<VirtualHost *:80>
- ServerName test.local
- DocumentRoot "D:\testing-project\public"
- <Directory "D:\testing-project\public">
-  Options Indexes FollowSymLinks MultiViews
-  # AllowOverride None
-  AllowOverride FileInfo
-  Order allow,deny
-  Allow from all
- </Directory>
- DirectoryIndex index.html index.php
-</VirtualHost>
+	<VirtualHost *:80>
+	 ServerName test.local
+	 DocumentRoot "D:\testing-project\public"
+	 <Directory "D:\testing-project\public">
+	  Options Indexes FollowSymLinks MultiViews
+	  # AllowOverride None
+	  AllowOverride FileInfo
+	  Order allow,deny
+	  Allow from all
+	 </Directory>
+	 DirectoryIndex index.html index.php
+	</VirtualHost>
