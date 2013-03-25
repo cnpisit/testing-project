@@ -29,7 +29,7 @@ class ModuleOptions extends AbstractOptions
     /**
      * @var boolean
      */
-//    protected $facebookEnabled = true;
+    protected $facebookEnabled = true;
 
     /**
      * @var string
